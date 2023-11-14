@@ -1,4 +1,3 @@
-<!-- Form for editing a task -->
 <h1>Edit</h1>
 <form action="{{ route('tasks.update', $task->id) }}" method="post">
     @csrf

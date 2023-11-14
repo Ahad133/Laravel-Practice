@@ -1,4 +1,3 @@
-<!-- Form for creating a new task -->
 <h1>CRUD function</h1>
 <form action="{{ route('tasks.store') }}" method="post">
     @csrf
